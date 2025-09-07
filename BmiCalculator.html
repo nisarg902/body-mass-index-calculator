@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BmI calculater</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <div class="container p-4">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-sm-12 border rounded shadow p-4 bg-light">
+      <h4 class="text-center mb-4">BMI Calculator</h4>
+
+      <div class="mb-3">
+        <label  class="form-label">Height (in feet)</label>
+        <input type="number" id="height" class="form-control" placeholder="Enter height in feet">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Weight (in kg)</label>
+        <input type="number" id="weight" class="form-control" placeholder="Enter weight in kg">
+      </div>
+
+      <div class="d-flex justify-content-between">
+        <button class="btn btn-primary w-45 " id="Calculate">Calculate</button>
+        <button class="btn btn-warning w-45" id="Reload">Reload</button>
+      </div>
+      <h2 class="m-3 p-3" id="bmi"></h2>
+         
+    <p id="category"></p>
+    </div>
+ 
+  </div>
+</div>
+<script src="BmiCalculator.js"></script>
+</body>
+</html>
