@@ -34,11 +34,12 @@ category.innerHTML= " You are  overweight";
 
 })
 
-Reload.addEventListener("click",function(){
-    bmiShow.innerText="";
-    height.innerText="";
-    weight.value="";
-    category.value="";
-})
+Reload.addEventListener("click", function() {
+    bmiShow.innerText = "";
+    height.value = "";
+    weight.value = "";
+    category.innerText = "";
+});
+
 
 
